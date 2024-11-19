@@ -1,10 +1,10 @@
 # Whole Year Calendar For Online Whiteboards
 
-
 ![Screenshot](screenshot.png)
 
-A simple, client-side quarterly calendar that displays a calendar for a specific year and quarter. The calendar highlights weekends and holidays (including the applicable federal states in Germany) and offers customizable rows with pastel colors for team members or tasks.
+**[🔗 Live Demo](https://klausbreyer.github.io/whole-year-calendar-for-online-whiteboards/?year=2024&quarter=4)**
 
+A simple, client-side quarterly calendar that displays a calendar for a specific year and quarter. The calendar highlights weekends and holidays (including the applicable federal states in Germany) and offers customizable rows with pastel colors for team members or tasks.
 
 ## Motivation
 
@@ -31,6 +31,7 @@ This project was developed to provide an uncomplicated and visually appealing wa
 2. **Open index.html in a Web Browser**
 
    Navigate to the project folder and open index.html in your preferred web browser:
+
    - Windows: Right-click on index.html, select "Open with," and choose your browser.
    - macOS/Linux: Use your file manager to open index.html with your browser.
 
@@ -54,11 +55,13 @@ index.html?year=YYYY&quarter=Q
 ### Examples
 
 Display the second quarter of 2023:
+
 ```
 index.html?year=2023&quarter=2
 ```
 
 Display the fourth quarter of 2024:
+
 ```
 index.html?year=2024&quarter=4
 ```
@@ -82,7 +85,7 @@ The calendar provides 10 rows with different pastel colors for team members or t
 ```css
 /* Example: Change the background color of the first team row */
 .team-row-1 {
-    background-color: #ffd1dc; /* Light pink */
+  background-color: #ffd1dc; /* Light pink */
 }
 ```
 
